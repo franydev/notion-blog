@@ -7,6 +7,7 @@ usage_model = "bundled"
 command = "cargo install -q worker-build && worker-build --release"
 
 [vars]
+ACCOUNT_ID = "8c8c6f1b283ead190a0a4315af426428"
 MY_DOMAIN = "blog.kali-team.cn"
 NOTION_DOMAIN = "kali-team.notion.site"
 PAGE_MAP = '{"/":"edb6a939baab4424a25fd295b3c51312","/links":"9c74faba0b14441a93c2f94a40da3f79","/donate":"eb55bc48f7fb42bfaef8473d2b7b63aa","/about":"7a0e2b5d0137452cb7299f9000970caa"}'
