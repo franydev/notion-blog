@@ -3,6 +3,7 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2023-03-22"
 routes = [{ pattern = "blog.kali-team.cn/*", zone_id = "28eeca2e15ad32083050e97611262653" }]
 usage_model = "bundled"
+account_id = "8c8c6f1b283ead190a0a4315af426428"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
